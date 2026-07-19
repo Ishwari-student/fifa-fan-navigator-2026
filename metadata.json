@@ -1,0 +1,6 @@
+{
+  "name": "FIFA Fan Navigator 2026",
+  "description": "A highly secure, user-friendly, multilingual AI assistant built to guide international football fans with gate-finding, stadium amenities, and safe real-time transit routes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
