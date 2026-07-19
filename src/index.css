@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fifa-blue: #001C4F;
+  --color-fifa-green: #00D26A;
+  --color-fifa-blue-dark: #001235;
+  
+  --animate-scale-up: scale-up 0.2s ease-out;
+  --animate-fade-in: fade-in 0.15s ease-out;
+}
+
+@keyframes scale-up {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
